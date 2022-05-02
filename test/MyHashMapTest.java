@@ -182,7 +182,5 @@ class MyHashMapTest {
         //when
         //then
         assertThat(myHashMap.containsKey(15), is(false));
-
-        HashMap<Integer, Integer> hashMap = new HashMap<>();
     }
 }
